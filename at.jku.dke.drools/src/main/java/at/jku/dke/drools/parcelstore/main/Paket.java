@@ -1,8 +1,8 @@
-package at.jku.dke.drools.parcelstore;
+package at.jku.dke.drools.parcelstore.main;
 
 import java.util.Date;
 
-public class Person {
+public class Paket {
 	private int id;
 	private double laenge;
 	private double breite;
@@ -17,7 +17,7 @@ public class Person {
 	private double versicherungskosten;
 	private Date datum;
 
-	public Person(int id, double laenge, double breite, double hoehe, double gewicht, double versandkosten,
+	public Paket(int id, double laenge, double breite, double hoehe, double gewicht, double versandkosten,
 			Person empfaenger, Person sender, double wert, boolean versichert, boolean rabatt,
 			double versicherungskosten, Date datum) {
 		super();

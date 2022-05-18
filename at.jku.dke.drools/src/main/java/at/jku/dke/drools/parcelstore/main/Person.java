@@ -1,13 +1,14 @@
-package at.jku.dke.drools.parcelstore;
+package at.jku.dke.drools.parcelstore.main;
 
-public class Paket {
+public class Person {
+
 	private String name;
 	private String land;
 	private String strasse;
 	private long plz;
 	private String ort;
 
-	public Paket(String name, String land, String strasse, long plz, String ort) {
+	public Person(String name, String land, String strasse, String ort, long plz) {
 		super();
 		this.name = name;
 		this.land = land;
